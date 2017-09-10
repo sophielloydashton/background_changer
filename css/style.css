@@ -1,0 +1,65 @@
+html, body {
+  background: #FFE4E1;
+  color: #808080;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Lora', serif;
+ text-shadow: 1px 1px #000;
+}
+
+button {
+  padding: 1em 3em;
+  border: dashed 2px white;
+}
+
+*:focus {
+  outline: none;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons {
+  text-align: center;
+}
+
+#black {
+  background: black;
+}
+
+#blue {
+  background: blue;
+}
+
+#red {
+  background: red;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:visited {
+  font-style: none;
+  color: #808080;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p{
+  font-size: 25px;
+}
